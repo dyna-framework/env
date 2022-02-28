@@ -7,7 +7,7 @@ import * as path from 'path';
  */
 export class EnvFilesInitializer extends BaseInitializer {
 
-  public iIndex: number = Number.MIN_SAFE_INTEGER;
+  static INTERNAL_INITIALIZER_INDEX: number = Number.MIN_SAFE_INTEGER;
 
   async register() {
     const dotfile = this.getEnvironmentFilePath();
