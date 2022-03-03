@@ -5,5 +5,5 @@
  * @returns value
  */
 export function env(key: string, defaultValue?: any) {
-  return process.env[key] || defaultValue;
+  return process.env[key] || defaultValue
 }
